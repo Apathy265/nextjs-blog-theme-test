@@ -16,8 +16,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="al:web:url" content="https://www.garmin.com/p/707742"/>
         <meta property="og:image"content={`https://connect.garmin.com/images/apps/dive/DIVE_1x.png`}/>
       </Head>
-      // <span className="theme-bejamas" />
-      // <Component {...pageProps} />
+      <span className="theme-bejamas" />
+      <Component {...pageProps} />
     </>
   );
 }
